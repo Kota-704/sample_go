@@ -2,10 +2,13 @@ package main
 
 import (
 	"fmt"
-	"math/rand/v2"
 )
 
-func main() {
-	fmt.Println("Hello World!")
-	fmt.Println(rand.N(6))
+func cal (x, y int64) (plus int64) {
+	plus = x + y
+	return
+}
+
+func main2() {
+	fmt.Println(cal(20, 10))
 }
